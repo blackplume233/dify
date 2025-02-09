@@ -450,7 +450,7 @@ services:
       TOP_K_MAX_VALUE: ${TOP_K_MAX_VALUE:-}
       INDEXING_MAX_SEGMENTATION_TOKENS_LENGTH: ${INDEXING_MAX_SEGMENTATION_TOKENS_LENGTH:-}
     ports:
-      -6900:3000
+      - 6900:3000
 
   # The postgres database.
   db:
